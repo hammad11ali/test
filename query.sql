@@ -136,3 +136,4 @@ FROM (SELECT 'INVESTMENTS' AS Categorys,
            ON A.gl_code = c.ASSET_CODE-- where a.gl_Code='40909503'
 
      )
+     WHERE GL_CODE LIKE '40401500%'
